@@ -13,7 +13,7 @@ const Body = () => {
   return (
     <div className="theme_bg">
       <Banner/>
-      <div className="container-fluid pt-5 pb-5 bg_grey">
+      <div className="container-fluid pt-5 pb-5 bg-grey">
         <div className="container">
           <h2 className="mb-2 bold black text-capitize">
             Most Used Services
