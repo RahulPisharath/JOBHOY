@@ -1,5 +1,4 @@
 import React from "react";
-import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import Avatar from '../assets/images/avatar_user.png';
 
 const Userprofile = () => {

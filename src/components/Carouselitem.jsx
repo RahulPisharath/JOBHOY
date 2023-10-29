@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import data from "../products.json";
+// import data from "../products.json";
 
 const Carouselitem = () => {
   const [products, setProducts] = useState([]);

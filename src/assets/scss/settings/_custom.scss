@@ -22,10 +22,17 @@ a:hover {
     text-decoration: none;
     outline: 0;
     font-weight: lighter;
-    color: var(--color-white);
+   
 }
 
-
+.h-full{
+    height: 100%;
+}
+.h-slider-215{
+    height:215px;
+    display: flex;
+    align-items: center;
+}
 
 /* -----------------------------------*/
 /* ---------->>> HEADER <<<-----------*/
@@ -55,13 +62,12 @@ a:hover {
 
 /**/
 .d-block {
-    display: block !important
+    display: block;
 }
 
 .d-flex {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    flex-wrap: wrap;
+    display: flex;
+  
 }
 
 .justify-content-start {
@@ -573,4 +579,80 @@ ul.timeline>li.active:before {
 
 .border-4 {
     border-radius: 4px;
+}
+
+.job_item_carpenter{
+    background-image: url('../images/carpenter.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_builders{
+    background-image: url('../images/builders.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_interior{
+    background-image: url('../images/interior.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_electrician{
+    background-image: url('../images/electrician.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_gardening{
+    background-image: url('../images/garnening.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_plumbing{
+    background-image: url('../images/plumbing.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.job_item_furniture{
+    background-image: url('../images/furniture.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.relative{
+    position: relative;
+}
+.carousel_options,.carousel .control-dots{
+    width: auto !important; 
+    height: 40px !important;
+    text-align: right !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 25px !important;
+    span,.dot {
+        display: inline-block !important;
+        width: 8px !important;
+        height: 8px !important;
+        border-radius: 100% !important;
+        background: #032d42 !important;
+        margin: 0 2px !important;
+        box-shadow: none !important;
+        transition: none !important;
+    }
+}
+
+.carousel .slide {
+    text-align: left !important;
+}
+.text-truncate_2{
+    display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
 }
