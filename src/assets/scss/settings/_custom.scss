@@ -134,7 +134,7 @@ a:hover {
     color: #000;
     text-transform:
         uppercase;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     position: relative;
 
@@ -632,8 +632,8 @@ ul.timeline>li.active:before {
     height: 40px !important;
     text-align: right !important;
     position: absolute !important;
-    bottom: 0 !important;
-    right: 25px !important;
+    bottom: -22px !important;
+    left: 25px !important;
     span,.dot {
         display: inline-block !important;
         width: 8px !important;
@@ -655,4 +655,34 @@ ul.timeline>li.active:before {
 -webkit-box-orient: vertical;
 overflow: hidden;
 text-overflow: ellipsis;
+}
+.btn:disabled,.btn_themed:disabled{
+    background-color: initial !important;
+    color:initial !important;
+    opacity: 0.5;
+}
+.sub_list--ul{
+    li{
+        border-bottom: 1px solid #EEE;
+        margin: 10px 0;
+        p{
+            margin-bottom: 3px;
+        }
+    }
+}
+.default-list{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+.sub_list-items{
+    display: flex;
+    justify-content: stretch;
+    padding: 12px 0;
+}
+.fl-80{
+    flex: 0 0 80%;
+}
+.fl-20{
+    flex: 0 0 20%;
 }

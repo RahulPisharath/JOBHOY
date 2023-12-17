@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import data from "../products.json";
+import data from "../products.json";
 
 const Carouselitem = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
+    fetch(data)
       .then((response) => response.json())
       .then((data) => setProducts(data));
       console.log(products);
@@ -17,12 +17,11 @@ const Carouselitem = () => {
     <ul>
         {products.map((product) => (
           <li key={product.id}>
-            <Link to={`/product/${product.id}`}>{product.name}</Link>
+            <Link to={`/product/${product.category}`}>{product.name}</Link>
           </li>
         ))}
       </ul>
-    // className "owl-theme" is optional
-    // <OwlCarousel className="owl-theme" items={6} loop margin={8} nav>   </OwlCarousel>
+
       <ul>
         {products.map((product) => {
           <li key={product.id}>

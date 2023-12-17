@@ -20,7 +20,7 @@ const EcomCarousel = () => {
           <div className="text-left p-4 col-md-6">
             <h4>{product.title}</h4>
             <p className="text-truncate_2">{product.description}</p>
-            <Link to={`/detail/${product.id}`}>
+            <Link to={`/detail/${product.category}`}>
               <button className="btn btn-outline-secondary btn_themed_02">Shop Now</button>
             </Link>
             

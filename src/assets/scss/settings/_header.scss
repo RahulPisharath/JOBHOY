@@ -9,7 +9,7 @@
     max-width: 100px;
   }
   .navbar .navbar-nav .nav-link {
-    color:var(--color-white);
+    color:var(--color-brandblue);
   }
   @media screen and (min-width: 1024px) {
     .navbar .navbar-nav .nav-link {
@@ -147,4 +147,27 @@
 
 .bg-body-tertiary{
   background-color: var(--color-white) !important;
+}
+.icon_location{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.cart_bubble{
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 200px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    position: absolute;
+    top: -12px;
+    right: -19px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

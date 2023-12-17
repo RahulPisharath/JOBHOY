@@ -1,3 +1,4 @@
+
 [
     {
         "id": 1,
@@ -5,7 +6,45 @@
         "price": 109.95,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "builders",
-        "image": "../../assets/images/interior.jpg"
+        "image": "../../assets/images/interior.jpg",
+        "sub_category":[
+            {
+               "sub_id":1.1,
+               "title":"Custom Home Construction",
+               "image":"../../assets/images/Electrician/images.png",
+               "price":"",
+               "description":"Building personalized homes tailored to the client's specifications, from design to completion."
+            },
+            {
+                "sub_id":1.2,
+                "title":"Home Renovations/Remodeling",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "description":"Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value."
+             },
+             {
+                "sub_id":1.3,
+                "title":"Interior Design",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "description":"Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings."
+             },
+             {
+                "sub_id":1.4,
+                "title":"Landscaping and Outdoor Spaces",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "description":"Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools."
+             },
+             {
+                "sub_id":1.5,
+                "title":"Project Management",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control."
+             }
+
+        ]
     },
     {
         "id": 2,
@@ -21,7 +60,81 @@
         "price": 55.99,
         "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "electrician",
-        "image": "../asets/images/electrician.jpg"
+        "image": "../asets/images/electrician.jpg",
+        "sub_category":[
+            {
+               "sub_id":1.1,
+               "title":"Switch & Socket",
+               "image":"../../public/images/placeholder.png",
+               "price":"₹349 . 30 mts",
+               "Rating":"4.85 (10.6K reviews)",
+               "heading":"Switchbox installation (15+ amp)",
+               "description":"Price includes labor charges for 1 switchbox installation (15+ amp)",
+               "Excluded":"Wiring at extra cost",
+               "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+            },
+            {
+                "sub_id":1.2,
+                "title":"Fan",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             },
+             {
+                "sub_id":1.3,
+                "title":"Light",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             },
+             {
+                "sub_id":1.4,
+                "title":"Wiring",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             },
+             {
+                "sub_id":1.5,
+                "title":"Door Bell",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             },
+             {
+                "sub_id":1.6,
+                "title":"MCB & Fuse",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             },
+             {
+                "sub_id":1.7,
+                "title":"Invertors & Stabilizers",
+                "image":"../../assets/images/Electrician/images.png",
+                "price":"",
+                "Rating":"4.85 (10.6K reviews)",
+                "description":"Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+                "Excluded":"Wiring at extra cost",
+                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+             }
+
+        ]
     },
     {
         "id": 4,
