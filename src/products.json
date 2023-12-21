@@ -1,179 +1,650 @@
-
 [
-    {
-        "id": 1,
-        "title": "Home Builders",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "builders",
-        "image": "../../assets/images/interior.jpg",
-        "sub_category":[
-            {
-               "sub_id":1.1,
-               "title":"Custom Home Construction",
-               "image":"../../assets/images/Electrician/images.png",
-               "price":"",
-               "description":"Building personalized homes tailored to the client's specifications, from design to completion."
-            },
-            {
-                "sub_id":1.2,
-                "title":"Home Renovations/Remodeling",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "description":"Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value."
-             },
-             {
-                "sub_id":1.3,
-                "title":"Interior Design",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "description":"Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings."
-             },
-             {
-                "sub_id":1.4,
-                "title":"Landscaping and Outdoor Spaces",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "description":"Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools."
-             },
-             {
-                "sub_id":1.5,
-                "title":"Project Management",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control."
-             }
-
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Interior Work",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "interior",
-        "image": "../../assets/images/furniture.jpg"
-    },
-    {
-        "id": 3,
-        "title": "Electrician",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "electrician",
-        "image": "../asets/images/electrician.jpg",
-        "sub_category":[
-            {
-               "sub_id":1.1,
-               "title":"Switch & Socket",
-               "image":"../../public/images/placeholder.png",
-               "price":"₹349 . 30 mts",
-               "Rating":"4.85 (10.6K reviews)",
-               "heading":"Switchbox installation (15+ amp)",
-               "description":"Price includes labor charges for 1 switchbox installation (15+ amp)",
-               "Excluded":"Wiring at extra cost",
-               "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-            },
-            {
-                "sub_id":1.2,
-                "title":"Fan",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             },
-             {
-                "sub_id":1.3,
-                "title":"Light",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             },
-             {
-                "sub_id":1.4,
-                "title":"Wiring",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             },
-             {
-                "sub_id":1.5,
-                "title":"Door Bell",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             },
-             {
-                "sub_id":1.6,
-                "title":"MCB & Fuse",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             },
-             {
-                "sub_id":1.7,
-                "title":"Invertors & Stabilizers",
-                "image":"../../assets/images/Electrician/images.png",
-                "price":"",
-                "Rating":"4.85 (10.6K reviews)",
-                "description":"Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
-                "Excluded":"Wiring at extra cost",
-                "included":"Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
-             }
-
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Gardening",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "gardening",
-        "image": "../assets/images/garnening.jpg"
-    },
-    {
-        "id": 5,
-        "title": "Plumbing",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "plumbing",
-        "image": "../assets/images/plumbing.jpg"
-    },
-    {
-        "id": 6,
-        "title": "Furnitures",
-        "price": 698,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "furniture",
-        "image": "../assets/images/plumbing.jpg"
-    },
-    {
-        "id": 7,
-        "title": "Air Conditioning",
-        "price": 69,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "air_conditioning",
-        "image": "../assets/images/air_condition.jpg"
-    },
-    {
-        "id": 8,
-        "title": "Carpenter",
-        "price": 69,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "carpenter",
-        "image": "../assets/images/carpenter.jpg"
-    }
+  {
+    "id": 1,
+    "title": "Home Builders",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "builders",
+    "image": "../../assets/images/interior.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Custom Home Construction",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹ 349.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Building new homes based on clients' specific needs, preferences, and architectural designs",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Home Renovation and Remodeling",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Upgrading or modifying existing homes, which may include kitchen remodels, bathroom renovations, room additions, etc.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Design-Build Services",
+        "image": "../../assets/images/Electrician/images.png",
+        "price": "10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Offering both design and construction services in one package, streamlining the process from concept to completion.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Interior Design",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": " Providing expertise in selecting materials, finishes, colors, and overall aesthetic design for the interior spaces.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Consultation and Planning",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Assisting clients in planning their home projects, offering advice on design, budgeting, and feasibility.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "Insurance and Permits",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Handling necessary permits and ensuring that the construction adheres to local building codes and regulations.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Warranty and Maintenance",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing warranties for workmanship and materials used, as well as offering maintenance services after the construction is completed.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Interior Work",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+    "category": "interior",
+    "image": "../../assets/images/furniture.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Electrician",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "electrician",
+    "image": "../asets/images/electrician.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gardening",
+    "price": 15.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "gardening",
+    "image": "../assets/images/garnening.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Plumbing",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "plumbing",
+    "image": "../assets/images/plumbing.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Furnitures",
+    "price": 698,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "furniture",
+    "image": "../assets/images/plumbing.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Air Conditioning",
+    "price": 69,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "air_conditioning",
+    "image": "../assets/images/air_condition.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Carpenter",
+    "price": 69,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "carpenter",
+    "image": "../assets/images/carpenter.jpg",
+    "sub_category": [
+      {
+        "sub_id": 1.1,
+        "title": "Switch & Socket",
+        "image": "../../public/images/placeholder.png",
+        "price": "₹349 . 30 mts",
+        "Rating": "4.85 (10.6K reviews)",
+        "heading": "Switchbox installation (15+ amp)",
+        "description": "Price includes labor charges for 1 switchbox installation (15+ amp)",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.2,
+        "title": "Fan",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Renovating or remodeling existing homes to improve functionality, aesthetics, or increase property value.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.3,
+        "title": "Light",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Providing interior design services to create cohesive and visually appealing interiors, including selection of finishes, fixtures, and furnishings.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.4,
+        "title": "Wiring",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Designing and constructing outdoor living areas, landscaping, gardens, patios, and pools.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.5,
+        "title": "Door Bell",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.6,
+        "title": "MCB & Fuse",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      },
+      {
+        "sub_id": 1.7,
+        "title": "Invertors & Stabilizers",
+        "image": "../../assets/images/Electrician/images.png",
+         "price": "₹ 10.00",
+        "Rating": "4.85 (10.6K reviews)",
+        "description": "Overseeing, the entire construction process, including scheduling, subcontractor coordination, and quality control.",
+        "Excluded": "Wiring at extra cost",
+        "included": "Labour charges for installation of 1 heavy switchboard,Procurement of spare parts (at extra cost),Clean-up after the service,UC warranty & damage cover*"
+      }
+    ]
+  }
 ]

@@ -14,9 +14,10 @@ import Userprofile from "./src/components/Userprofile";
 import Shopping from "./src/components/Shopping";
 import DetailView from "./src/components/DetailView";
 import appStore from "./src/components/utils/appStore";
-import CartComponent from "./src/components/CartComponent";
 import Services from "./src/components/Services";
 import Userprofile from "./src/components/Userprofile";
+import  Cart from "./src/components/Cart";
+
 
 const AppLayout = () => {
 
@@ -41,12 +42,16 @@ const appRouter = createBrowserRouter([
         element: <Body />,
       },
       {
+        path: "/home",
+        element: <Body />,
+      },
+      {
         path: "/services",
         element: <Services/>,
       },
       {
         path: "/cart",
-        element: <CartComponent/>,
+        element: <Cart/>,
       },
       {
         path: "/userprofile",

@@ -1,4 +1,33 @@
-.table-image td, .table-image th {
+.table-image td,
+.table-image th {
     vertical-align: middle;
     text-align: center;
+}
+
+.order {
+    p {
+        padding: 0;
+        line-height: 20px;
+    }
+
+    h4,
+    h5 {
+        padding: 0;
+    }
+}
+
+.couponDiv{
+    border: 1px dashed #a9abb2;
+    color: #535665;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 15px;
+    margin: 10px 0 15px;
+    font-weight: 500;
+    height: 55px;
+    background: #eafde8;
 }

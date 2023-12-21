@@ -18,9 +18,9 @@ const Body = () => {
           <h2 className="mb-2 bold black text-capitize">
             Most Used Services
           </h2>
-          <Link to={'/detail/1'}>
-          <Item/>
-          </Link>
+          
+              <Item/>
+         
           
     
         </div>
